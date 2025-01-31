@@ -1,0 +1,8 @@
+#giorni della settimana
+
+giorni_settimana = ("Lunedi", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica")
+
+impegni = []
+
+for giorno in giorni_settimana:
+    impegno = input("Che impegni hai i lunedì? :")
