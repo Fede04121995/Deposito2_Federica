@@ -5,4 +5,9 @@ giorni_settimana = ("Lunedi", "Martedì", "Mercoledì", "Giovedì", "Venerdì", 
 impegni = []
 
 for giorno in giorni_settimana:
-    impegno = input("Che impegni hai i lunedì? :")
+    #impegno = input("Che impegni hai i lunedì? :")
+    impegno = input(f"Che impegni hai il {giorno} (lascia vuoto se nessuno, se più di uno, separali da una virgola): ")
+    
+    print("Tutti i tuoi impegni sono:")
+    impegni.append(impegno) 
+    print(impegni) 
