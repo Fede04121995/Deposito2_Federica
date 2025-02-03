@@ -9,7 +9,7 @@ lista_valori.append(booleano)
 lista_valori.append(numero)
 lista_valori.append(parola)
 
-dizionario
+dizionario["tipididato"] = lista_valori 
 
 print(lista_valori)
 print(dizionario)
