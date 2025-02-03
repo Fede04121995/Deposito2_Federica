@@ -29,7 +29,7 @@ class Biblioteca:
         
     def stampa_libro(self):
         for x in self.lista_libri:
-            print( x.stampa_dati())
+            x.stampa_dati()
 
 
 biblio = Biblioteca()
